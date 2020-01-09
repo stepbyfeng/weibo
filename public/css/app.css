@@ -11380,6 +11380,10 @@ a {
   color: #555;
 }
 
+.form-group a {
+  color: #007bff;
+}
+
 a:hover {
   color: #222;
 }
