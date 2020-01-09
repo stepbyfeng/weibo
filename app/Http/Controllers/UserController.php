@@ -96,8 +96,8 @@ class UserController extends Controller
     {
         $view = 'emails.confirm';
         $data = compact('user');
-        $from = '598236556@qq.com';
-        $name = 'Mapleleaf';
+        // $from = '598236556@qq.com';
+        // $name = 'Mapleleaf';
         $to = $user->email;
         $subject = '感谢注册 Weibo 应用！请确认你的邮箱。';
 
